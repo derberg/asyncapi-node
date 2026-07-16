@@ -1,6 +1,6 @@
 {
   "name": "@asyncapi/specs",
-  "version": "6.11.0",
+  "version": "6.13.5",
   "description": "AsyncAPI schema versions",
   "main": "index.js",
   "types": "index.d.ts",
@@ -33,6 +33,7 @@
       "email": "bpedro@hitchhq.com"
     }
   ],
+  
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/asyncapi/spec-json-schemas/issues"
@@ -44,9 +45,9 @@
     "ajv-formats": "^3.0.1",
     "eslint": "^8.56.0",
     "eslint-plugin-sonarjs": "^0.23.0",
-    "nyc": "^15.1.0",
+    "nyc": "^18.0.0",
     "vite-require": "^0.2.3",
-    "vitest": "^3.0.9"
+    "vitest": "^4.1.0"
   },
   "dependencies": {
     "@types/json-schema": "^7.0.11"
